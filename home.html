@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Testing Javascript and Canvas
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	</head>
+	<body>
+		<h2>Draw on Canvas</h2>
+		<canvas id="canvas" width="400" height="400"></canvas>
+		<br>
+		<br>
+			<input class = "form" type="text" id="i_x" placeholder="Start(x)">
+  			<input type="text" class = "form" id="i_y" placeholder="Start(y)"><br>
+			<input type="text" class = "form" id="f_x" placeholder="End(x)">
+  			<input type="text" id="f_y" class = "form" placeholder="End(y)">
+  			<input type="text" id="colour" class = "form" placeholder="Color">
+  		<br>
+		<button id="btn2" onclick="draw();">Draw Line</button>
+		<br>
+			<input class = "form" type="text" id="x_rot" placeholder="Abscissa of Rotation Pt">
+			<input class = "form" type="text" id="y_rot" placeholder="Ordinate of Rotation Pt">
+		<br>
+		<button id = "btn3" class="form" onclick="init();" >Rotate Canavas</button>
+		<button id = "btn4" class = "form" onclick="stop();">Stop Rotation</button>
+		<br>
+		<button id="btn1" onclick="clear_my();">Clear canvas</button>
+		<br>
+		<hr>
+		<p id="footer">Copyrights Reserved</p>
+	</body>
+</html>

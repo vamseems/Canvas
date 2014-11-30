@@ -1,0 +1,46 @@
+#canvas{
+	border: 2px solid black;
+	position: relative;
+	left: 33%;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+#btn1{
+	position: relative;
+	left: 28%;
+}
+
+#btn2{
+	position: relative;
+	left: 28%;
+}
+
+h2{
+	position: relative;
+	font-left: 35%;
+	text-decoration: underline;
+	font-style: italic;
+	color: #546658;
+	text-align: center;
+}
+
+body{
+	background-color: #E8F0F0;
+	overflow: visible;
+}
+
+.form{
+	position: relative;
+	left: 28%;
+}
+
+#footer{
+	font-size: 15px;
+	font-style: italic;
+	color: #101010;
+	position: relative;
+	overflow: hidden;
+	text-align: right;
+}
